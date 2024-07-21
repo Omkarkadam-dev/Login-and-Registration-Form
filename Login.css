@@ -79,6 +79,8 @@ body {
 
 .login-form {
     width: 400px;
+    margin-left: 127px;
+    
 
 }
 
@@ -88,7 +90,7 @@ body {
 
 .desc h1 {
     color: rgb(217, 168, 99);
-    margin-bottom: 180px;
+    margin-bottom: 140px;
     font-size: 45px;
     margin-left: 112px;
 
@@ -96,12 +98,69 @@ body {
 
 .desc h2 {
     color: white;
-    margin-bottom: 10px;
+    margin-top: 50px;
     font-size: 35px;
 }
 
 .desc p {
     width: 450px;
-    opacity: 0,7;
+    opacity: 0, 7;
     color: white;
 }
+
+.icon {
+    margin-top: 20px;
+}
+
+.icon img{
+    margin-right: 10px;
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+}
+
+.signup a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.search-2{
+    margin-top: 30px;
+}
+
+
+.search-2 input{
+    height: 30px;
+    width: 190px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 2px;
+    
+}
+
+.search-2 input::placeholder{
+    padding-left: 60px;
+}
+
+.forgot{
+    display: flex;
+    justify-content: center;
+}
+
+.forgot a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-login{}
