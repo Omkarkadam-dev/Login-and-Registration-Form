@@ -44,6 +44,12 @@ body {
     color: white;
     font-size: 20px;
     margin-right: 25px;
+    transform: 0.3s;
+}
+
+.nav a:hover{
+    color: rgb(217, 168, 99);
+    transition: scale(1.1);
 }
 
 .nav #home {
@@ -58,6 +64,11 @@ body {
     border-radius: 5px;
     color: white;
     margin-left: 400px;
+    transition: 0.2s;
+}
+
+.nav #search:hover{
+   border: 2px solid rgb(217, 168, 99);
 }
 
 .nav #search::placeholder {
@@ -81,7 +92,6 @@ body {
     width: 400px;
     margin-left: 127px;
     
-
 }
 
 .desc {
@@ -112,27 +122,28 @@ body {
     margin-top: 20px;
 }
 
-.icon img{
+.icon img {
     margin-right: 10px;
 }
 
-.signup{
+.signup {
     display: flex;
     justify-content: center;
+    margin-top: 150px;
 }
 
-.signup a{
+.signup a {
     text-decoration: none;
     color: white;
     font-size: 30px;
 }
 
-.search-2{
+.search-2 {
     margin-top: 30px;
 }
 
 
-.search-2 input{
+.search-2 input {
     height: 30px;
     width: 190px;
     border: 2px solid white;
@@ -141,26 +152,45 @@ body {
     border-radius: 5px;
     margin-bottom: 20px;
     margin-left: 2px;
-    
+
 }
 
-.search-2 input::placeholder{
+.search-2 input::placeholder {
     padding-left: 60px;
 }
 
-.forgot{
+.forgot {
     display: flex;
     justify-content: center;
 }
 
-.forgot a{
+.forgot a {
     text-decoration: none;
     color: white;
 }
 
-.btn{
+.btn-login {
     display: flex;
     justify-content: center;
 }
 
-.btn-login{}
+.btn-login button{
+    height: 35px;
+    width: 180px;
+    border: none;
+    background-color: rgb(217, 168, 99);
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.create{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.create a{
+    text-decoration: none;
+    color: white;
+}
